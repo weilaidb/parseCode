@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'widget.h'
 **
-** Created: Mon Aug 29 22:04:12 2016
+** Created: Mon Sep 5 08:03:01 2016
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -50,7 +50,7 @@ const QMetaObjectExtraData Widget::staticMetaObjectExtraData = {
 };
 
 const QMetaObject Widget::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_Widget,
+    { &QMainWindow::staticMetaObject, qt_meta_stringdata_Widget,
       qt_meta_data_Widget, &staticMetaObjectExtraData }
 };
 
@@ -68,12 +68,12 @@ void *Widget::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_Widget))
         return static_cast<void*>(const_cast< Widget*>(this));
-    return QWidget::qt_metacast(_clname);
+    return QMainWindow::qt_metacast(_clname);
 }
 
 int Widget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QWidget::qt_metacall(_c, _id, _a);
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     return _id;

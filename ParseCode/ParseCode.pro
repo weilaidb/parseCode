@@ -12,11 +12,14 @@ TEMPLATE = app
 RC_FILE = pccapp.rc
 
 SOURCES += main.cpp\
-        widget.cpp
+    mainwindow.cpp
 
-HEADERS  += widget.h
+HEADERS  += \
+    version.h \
+    mainwindow.h
 
-FORMS    += widget.ui
+FORMS    += \
+    mainwindow.ui
 
 OTHER_FILES += \
     pccapp.rc
