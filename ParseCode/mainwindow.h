@@ -15,6 +15,13 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     
+public:
+    void Slots();
+
+public slots:
+    //about version
+    void aboutVersion();
+
 private:
     Ui::MainWindow *ui;
 };
