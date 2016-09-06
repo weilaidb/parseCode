@@ -33,3 +33,4 @@ void MainWindow::Slots()
     QObject::connect(ui->action_version, SIGNAL(triggered()),
                      this, SLOT(aboutVersion()));
 }
+
